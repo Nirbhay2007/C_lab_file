@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 
-// Function to calculate factorial
 long long factorial(int num) {
     long long fact = 1;
     for (int i = 1; i <= num; i++) {
@@ -10,7 +9,7 @@ long long factorial(int num) {
     return fact;
 }
 
-// Function to calculate power
+
 double power(double base, int exponent) {
     double result = 1.0;
     for (int i = 0; i < exponent; i++) {
@@ -30,7 +29,7 @@ int main() {
     scanf("%d", &n);
     
     printf("Series: 1");
-    sum = 1.0;  // First term is always 1
+    sum = 1.0;  
     
     for (int i = 1; i <= n; i++) {
         double term = power(x, i) / factorial(i);

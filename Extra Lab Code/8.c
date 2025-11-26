@@ -11,7 +11,7 @@ int main() {
         scanf("%d", &source[i]);
     }
     
-    // Copy elements from source to destination
+
     for (int i = 0; i < n; i++) {
         destination[i] = source[i];
     }

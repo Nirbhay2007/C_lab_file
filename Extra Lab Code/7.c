@@ -14,7 +14,7 @@ int main() {
     printf("Enter the number to search: ");
     scanf("%d", &searchNum);
     
-    // Linear search
+
     for (int i = 0; i < n; i++) {
         if (arr[i] == searchNum) {
             printf("Number %d found at position %d\n", searchNum, i + 1);

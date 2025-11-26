@@ -7,7 +7,6 @@ int main() {
     printf("Enter two integers: ");
     scanf("%d %d", &num1, &num2);
     
-    // Type conversion: int to float division
     result = (float)num1 / num2;
     
     printf("Division result: %.1f\n", result);

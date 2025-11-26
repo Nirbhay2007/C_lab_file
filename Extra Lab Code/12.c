@@ -22,7 +22,7 @@ int main() {
             }
         }
         
-        sign = -sign;  // Alternate the sign
+        sign = -sign;  
     }
     
     printf("\nSum of the series = %.6f\n", sum);

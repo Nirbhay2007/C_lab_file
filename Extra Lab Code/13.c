@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Function to calculate factorial
 long long factorial(int num) {
     long long fact = 1;
     for (int i = 1; i <= num; i++) {
@@ -30,7 +29,6 @@ int main() {
     
     printf("\nSum of the series = %lld\n", sum);
     
-    // Display individual factorial values for reference
     printf("\nFactorial values:\n");
     for (int i = 1; i <= n; i++) {
         printf("%d! = %lld\n", i, factorial(i));
